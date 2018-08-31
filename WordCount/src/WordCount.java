@@ -8,7 +8,6 @@ public class WordCount {
         File inputFile = new File("TextFile.txt");
         try {
             Scanner scanner = new Scanner(inputFile);
-            int wordCount = 0;
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
